@@ -340,6 +340,19 @@
             this.XF = new System.Windows.Forms.Label();
             this.X = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // D11D
@@ -3078,7 +3091,7 @@
             this.SJG,
             this.lineShape1,
             this.D11D});
-            this.shapeContainer1.Size = new System.Drawing.Size(1155, 636);
+            this.shapeContainer1.Size = new System.Drawing.Size(1164, 641);
             this.shapeContainer1.TabIndex = 0;
             this.shapeContainer1.TabStop = false;
             // 
@@ -3433,6 +3446,7 @@
             this.C4.Size = new System.Drawing.Size(11, 12);
             this.C4.TabIndex = 98;
             this.C4.Text = "4";
+            this.C4.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C2
             // 
@@ -3444,6 +3458,7 @@
             this.C2.Size = new System.Drawing.Size(11, 12);
             this.C2.TabIndex = 97;
             this.C2.Text = "2";
+            this.C2.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C20
             // 
@@ -3455,6 +3470,7 @@
             this.C20.Size = new System.Drawing.Size(17, 12);
             this.C20.TabIndex = 96;
             this.C20.Text = "20";
+            this.C20.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C22
             // 
@@ -3466,6 +3482,7 @@
             this.C22.Size = new System.Drawing.Size(17, 12);
             this.C22.TabIndex = 95;
             this.C22.Text = "22";
+            this.C22.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C10
             // 
@@ -3477,6 +3494,7 @@
             this.C10.Size = new System.Drawing.Size(17, 12);
             this.C10.TabIndex = 94;
             this.C10.Text = "10";
+            this.C10.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C8
             // 
@@ -3488,6 +3506,7 @@
             this.C8.Size = new System.Drawing.Size(11, 12);
             this.C8.TabIndex = 93;
             this.C8.Text = "8";
+            this.C8.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C6
             // 
@@ -3499,6 +3518,7 @@
             this.C6.Size = new System.Drawing.Size(11, 12);
             this.C6.TabIndex = 92;
             this.C6.Text = "6";
+            this.C6.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C12
             // 
@@ -3510,6 +3530,7 @@
             this.C12.Size = new System.Drawing.Size(17, 12);
             this.C12.TabIndex = 91;
             this.C12.Text = "12";
+            this.C12.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C14
             // 
@@ -3521,6 +3542,7 @@
             this.C14.Size = new System.Drawing.Size(17, 12);
             this.C14.TabIndex = 90;
             this.C14.Text = "14";
+            this.C14.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C18
             // 
@@ -3532,6 +3554,7 @@
             this.C18.Size = new System.Drawing.Size(17, 12);
             this.C18.TabIndex = 89;
             this.C18.Text = "18";
+            this.C18.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C13
             // 
@@ -3543,6 +3566,7 @@
             this.C13.Size = new System.Drawing.Size(17, 12);
             this.C13.TabIndex = 88;
             this.C13.Text = "13";
+            this.C13.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C11
             // 
@@ -3554,6 +3578,7 @@
             this.C11.Size = new System.Drawing.Size(17, 12);
             this.C11.TabIndex = 87;
             this.C11.Text = "11";
+            this.C11.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C9
             // 
@@ -3565,6 +3590,7 @@
             this.C9.Size = new System.Drawing.Size(11, 12);
             this.C9.TabIndex = 86;
             this.C9.Text = "9";
+            this.C9.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C7
             // 
@@ -3576,6 +3602,7 @@
             this.C7.Size = new System.Drawing.Size(11, 12);
             this.C7.TabIndex = 85;
             this.C7.Text = "7";
+            this.C7.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C5
             // 
@@ -3587,6 +3614,7 @@
             this.C5.Size = new System.Drawing.Size(11, 12);
             this.C5.TabIndex = 84;
             this.C5.Text = "5";
+            this.C5.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C23
             // 
@@ -3598,6 +3626,7 @@
             this.C23.Size = new System.Drawing.Size(17, 12);
             this.C23.TabIndex = 83;
             this.C23.Text = "23";
+            this.C23.Click += new System.EventHandler(this.Switch_Click);
             // 
             // D9
             // 
@@ -3653,6 +3682,7 @@
             this.C3.Size = new System.Drawing.Size(11, 12);
             this.C3.TabIndex = 78;
             this.C3.Text = "3";
+            this.C3.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C1
             // 
@@ -3664,6 +3694,7 @@
             this.C1.Size = new System.Drawing.Size(11, 12);
             this.C1.TabIndex = 77;
             this.C1.Text = "1";
+            this.C1.Click += new System.EventHandler(this.Switch_Click);
             // 
             // D5
             // 
@@ -3686,6 +3717,7 @@
             this.C21.Size = new System.Drawing.Size(17, 12);
             this.C21.TabIndex = 75;
             this.C21.Text = "21";
+            this.C21.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C19
             // 
@@ -3697,6 +3729,7 @@
             this.C19.Size = new System.Drawing.Size(17, 12);
             this.C19.TabIndex = 74;
             this.C19.Text = "19";
+            this.C19.Click += new System.EventHandler(this.Switch_Click);
             // 
             // D3
             // 
@@ -3714,11 +3747,12 @@
             this.C15.AutoSize = true;
             this.C15.BackColor = System.Drawing.Color.Black;
             this.C15.ForeColor = System.Drawing.Color.White;
-            this.C15.Location = new System.Drawing.Point(177, 354);
+            this.C15.Location = new System.Drawing.Point(198, 356);
             this.C15.Name = "C15";
             this.C15.Size = new System.Drawing.Size(17, 12);
             this.C15.TabIndex = 72;
             this.C15.Text = "15";
+            this.C15.Click += new System.EventHandler(this.Switch_Click);
             // 
             // C17
             // 
@@ -3730,6 +3764,7 @@
             this.C17.Size = new System.Drawing.Size(17, 12);
             this.C17.TabIndex = 71;
             this.C17.Text = "17";
+            this.C17.Click += new System.EventHandler(this.Switch_Click);
             // 
             // GD1J
             // 
@@ -3786,12 +3821,133 @@
             this.label6.TabIndex = 130;
             this.label6.Text = "衡山站";
             // 
-            // Form2
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(75, 202);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(12, 12);
+            this.button1.TabIndex = 131;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(49, 202);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(12, 12);
+            this.button2.TabIndex = 132;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(62, 202);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(12, 12);
+            this.button3.TabIndex = 133;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(62, 300);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(12, 12);
+            this.button4.TabIndex = 136;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(49, 300);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(12, 12);
+            this.button5.TabIndex = 135;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(75, 300);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(12, 12);
+            this.button6.TabIndex = 134;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(1128, 301);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(12, 12);
+            this.button7.TabIndex = 139;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(1115, 301);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(12, 12);
+            this.button8.TabIndex = 138;
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(1141, 301);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(12, 12);
+            this.button9.TabIndex = 137;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(1128, 201);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(12, 12);
+            this.button10.TabIndex = 142;
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(1115, 201);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(12, 12);
+            this.button11.TabIndex = 141;
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(1141, 201);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(12, 12);
+            this.button12.TabIndex = 140;
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.Black;
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Location = new System.Drawing.Point(757, 269);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(17, 12);
+            this.label26.TabIndex = 143;
+            this.label26.Text = "16";
+            this.label26.Click += new System.EventHandler(this.Switch_Click);
+            // 
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1155, 636);
+            this.ClientSize = new System.Drawing.Size(1164, 641);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label25);
@@ -3857,8 +4013,9 @@
             this.Controls.Add(this.XF);
             this.Controls.Add(this.X);
             this.Controls.Add(this.shapeContainer1);
-            this.Name = "Form2";
+            this.Name = "Form1";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4178,5 +4335,18 @@
         private System.Windows.Forms.Label XF;
         private System.Windows.Forms.Label X;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label label26;
     }
 }
